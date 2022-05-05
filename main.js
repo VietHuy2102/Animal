@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Tiger_1 = require("./Tiger");
+var Chicken_1 = require("./Chicken");
+var Apple_1 = require("./Apple");
+var Orange_1 = require("./Orange");
+var animal = [];
+animal[0] = new Tiger_1.Tiger();
+animal[1] = new Chicken_1.Chicken();
+animal[2] = new Apple_1.Apple();
+animal[3] = new Orange_1.Orange();
+console.log(animal);
+console.log(animal[0].makeSound());
+console.log(animal[1].makeSound());
+console.log(animal[1].howtoEat());
+console.log(animal[2].howtoEat());
+console.log(animal[3].howtoEat());
